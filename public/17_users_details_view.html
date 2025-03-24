@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Users View Details</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    <link href="css/app.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Gujarati:wght@700&display=swap" rel="stylesheet">
+
+    <script src="js/settings.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav id="sidebar" class="sidebar">
+            <div class="sidebar-content js-simplebar">
+                <a class='sidebar-brand' href='index.html'>
+                    <!-- logo my web x="0px" y="0px" width="20px" height="20px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" -->
+
+                    <span class="align-middle lilita-one-regular me-3">Sabzee Mandi Bhavnagar</span>
+                </a>
+
+                <ul class="sidebar-nav">
+                    <li class="sidebar-header">
+                        Navigation
+                    </li>
+                    <li class="sidebar-item">
+                        <a data-bs-target="#dashboards" data-bs-toggle="collapse" class="sidebar-link collapsed">
+                            <i class="align-middle" data-lucide="sliders"></i> <span
+                                class="align-middle">Dashboards</span>
+                            <span class="badge badge-sidebar-primary">5</span>
+                        </a>
+                        <ul id="dashboards" class="sidebar-dropdown list-unstyled collapse " data-bs-parent="#sidebar">
+                            <li class="sidebar-item"><a class='sidebar-link' href='dashboard-default.html'>Default</a>
+                            </li>
+                        </ul>
+                    </li>
+            </div>
+        </nav>
+        <div class="main">
+            <nav class="navbar navbar-expand navbar-bg">
+                <a class="sidebar-toggle">
+                    <i class="hamburger align-self-center"></i>
+                </a>
+
+                <form class="d-flex d-sm-inline-flex">
+                    <div class="input-group input-group-navbar">
+                        <input type="text" class="form-control" placeholder="Search…" aria-label="Search">
+                        <button class="btn" type="button">
+                            <i class="align-middle" data-lucide="search"></i>
+                        </button>
+                    </div>
+                </form>
+                <ul class="navbar-nav">
+                    <li class="nav-item px-2 dropdown d-none d-sm-inline-block">
+                        <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Mega menu
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-start dropdown-mega" aria-labelledby="servicesDropdown">
+                            <div class="d-md-flex align-items-start justify-content-start">
+                                <div class="dropdown-mega-list">
+                                    <div class="dropdown-header">UI Elements</div>
+                                    <a class="dropdown-item" href="#">blank</a>
+                                </div>
+                                <div class="dropdown-mega-list">
+                                    <div class="dropdown-header">Forms</div>
+                                    <a class="dropdown-item" href="#">blank</a>
+                                </div>
+                                <div class="dropdown-mega-list">
+                                    <div class="dropdown-header">Tables</div>
+                                    <a class="dropdown-item" href="#">Blank</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="navbar-collapse collapse">
+                    <ul class="navbar-nav navbar-align">
+                        <li class="nav-item dropdown">
+                            <a class="nav-icon dropdown-toggle d-inline-block d-sm-none" href="#"
+                                data-bs-toggle="dropdown">
+                                <i class="align-middle" data-lucide="settings"></i>
+                            </a>
+
+                            <a class="nav-link dropdown-toggle d-none d-sm-inline-block" href="#"
+                                data-bs-toggle="dropdown">
+                                <img src="img/avatars/avatar.jpg" class="img-fluid rounded-circle me-1 mt-n2 mb-n2"
+                                    width="40" height="40" /> <span class="gujarati-regular">Bipin Makwana</span>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-end">
+                                <a class='dropdown-item' href='pages-profile.html'><i class="align-middle me-1"
+                                        data-lucide="user"></i> Profile</a>
+                                <a class="dropdown-item" href="#"><i class="align-middle me-1"
+                                        data-lucide="pie-chart"></i> Analytics</a>
+                                <div class="dropdown-divider"></div>
+                                <a class='dropdown-item' href='pages-settings.html'>Settings & Privacy</a>
+                                <a class="dropdown-item" href="#">Help</a>
+                                <a class="dropdown-item" href="#">Sign out</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <main class="content">
+                <div class="container-fluid p-0">
+                    <div class="card-header p-3 illustration d-flex justify-content-between align-items-center">
+                        <h1 class="text-white mb-0 gujarati-regular">Users Details</h1>
+                        <div class="d-flex gap-2">
+                            <a href="18_users_massage_email.html" class="btn btn-info">Massage</a>
+                            <a href="16_users_details.html" class="btn btn-light">Back</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-12 col-xl-6 col-lg-6">
+                                            <table class="table table-responsive d-grid my-2 mt-2">
+                                                <tbody>
+                                                    <tr>
+                                                        <th>User Image</th>
+                                                        <td>
+                                                            <div class="col-sm-3 col-xl-12 col-xxl-3 text-center">
+                                                                <img src="img/avatars/avatar.jpg" width="100"
+                                                                    height="100" alt="Bipin">
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Name</th>
+                                                        <td>Bipin Makwana</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Mobile</th>
+                                                        <td>+91 9054908080</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Email</th>
+                                                        <td>bjmakwana8080@gmail.com</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Status</th>
+                                                        <td><span class="badge badge-subtle-success">Active</span></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <div class="col-12 col-xl-6 col-lg-6">
+                                            <table class="table table-responsive d-grid my-2 mt-2">
+                                                <tbody>
+                                                    <tr>
+                                                        <th>Shipping Locality</th>
+                                                        <td>Sodvadra</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Shipping Address Line 1</th>
+                                                        <td>Shitala mata mandir Near </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Current Address Line-2</th>
+                                                        <td>Main Bazar Sodvadra </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>City</th>
+                                                        <td>Bhavnagar,Gujarat</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Pincode</th>
+                                                        <td>364060</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>User Block/Unblock Status</th>
+                                                        <td><span class="badge badge-subtle-warning">Unblocked</span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Actions</th>
+                                                        <td class="d-grid gap-2 d-md-block">
+                                                            <button type="button"
+                                                                class="btn btn-outline-danger">Block</button>
+                                                            <button type="button"
+                                                                class="btn btn-outline-warning">Unblock</button>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="table-responsive mt-5">
+                                        <div class="gujarati-regular fs-2">User Orders Details</div>
+                                        <table class="table">
+                                            <thead class="illustration" scope="row">
+                                                <tr>
+                                                    <th class="text-white">Id No</th>
+                                                    <th class="text-white">Product Name</th>
+                                                    <th class="text-white">Date</th>
+                                                    <th class="text-white">Price</th>
+                                                    <th class="text-white">Qty</th>
+                                                    <th class="text-white">Payment</th>
+                                                    <th class="text-white">Details</th>
+                                                    <th class="text-white text-end">Total</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>Mobile</td>
+                                                    <td>19-Feb-2025</td>
+                                                    <td>Rs. 2500</td>
+                                                    <td>1</td>
+                                                    <td>Received-Cash On Dilevery</td>
+                                                    <td class="text-end">
+                                                        <a href="14_admin_orders_datails.html"><button type="button"
+                                                                class="btn btn-outline-info">View</button></a>
+                                                    </td>
+                                                    <td class="text-end text-dark fw-bolder">Rs. 2500</td>
+                                                </tr>
+                                            </tbody>
+                                            <tfoot>
+                                                <tr>
+                                                    <td colspan="7" class="text-end text-dark fw-semibold">Total</td>
+                                                    <td class="text-end text-dark fw-bolder">Rs. 2500</td>
+                                                </tr>                                                    
+                                            </tfoot>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+            </main>
+            <footer class="footer">
+                <div class="container-fluid">
+                    <div class="row text-muted">
+                        <div class="col-12 text-center">
+                            <p class="mb-0">
+                                &copy; 2025 - <a class='text-muted' href='#'>Sabzee Mandi Bhavnagar</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

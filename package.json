@@ -1,6 +1,5 @@
 {
   "name": "business",
-  "homepage": "https://bjmakwana80.github.io/business",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,7 +10,6 @@
     "axios": "^1.8.1",
     "bootstrap": "^5.3.3",
     "cors": "^2.8.5",
-    "env-cmd": "^10.1.0",
     "gh-pages": "^6.3.0",
     "lucide-react": "^0.479.0",
     "react": "^19.0.0",
@@ -23,8 +21,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
